@@ -12,10 +12,7 @@ class Greeter {
 
 const greeter = new Greeter("world");
 
-const button = document.createElement('button');
-button.textContent = "Say Hello";
+const button = document.getElementById('myButton')!;
 button.onclick = () => {
   alert(greeter.greet());
-}
-
-document.body.appendChild(button);
+};
