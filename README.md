@@ -11,6 +11,19 @@ For users who wants to try TypeScript on Web Browser easily and stress free
 * Source map
 * Hot reload
 
+## Quick Start
+
+```bash
+# You can change app name
+APP_NAME="myapp"
+git clone https://github.com/nwtgck/typescript-on-browser-starter.git $APP_NAME
+cd $APP_NAME
+rm -rf .git
+sed -i '' "s/typescript-on-browser-starter/${APP_NAME}/" package.json
+sed -i '' "s/Starter for TypeScript on Web Browser/${APP_NAME}/" package.json
+npm i
+```
+
 ## How to change
 
 First, you can serve a develop server as follows.
