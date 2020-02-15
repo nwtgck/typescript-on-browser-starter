@@ -11,7 +11,7 @@
     "TypeScript",
     "Browser"
   ],
-  "author": "Ryo Ota <nwtgck@gmail.com>",
+  "author": "Ryo Ota <nwtgck@nwtgck.org> (https://github.com/nwtgck)",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
