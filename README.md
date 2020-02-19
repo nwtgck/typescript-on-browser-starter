@@ -22,6 +22,7 @@ rm -rf .git
 sed -i '' "s/typescript-on-browser-starter/${APP_NAME}/" package.json
 sed -i '' "s/Starter for TypeScript on Web Browser/${APP_NAME}/" package.json
 echo -e "# $APP_NAME" > README.md
+sed -i ''  "s/2019/$(date -u "+%Y")/" LICENSE 
 npm i
 ```
 
