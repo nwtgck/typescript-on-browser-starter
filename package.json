@@ -19,7 +19,7 @@
     "babel-preset-es2015": "^6.24.1",
     "html-webpack-plugin": "^4.4.1",
     "ts-loader": "^8.0.4",
-    "typescript": "^3.9.7",
+    "typescript": "^4.0.3",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
