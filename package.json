@@ -4,7 +4,7 @@
   "description": "Starter for TypeScript on Web Browser",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "webpack-dev-server --watch",
+    "serve": "webpack-cli serve --mode development",
     "build": "webpack"
   },
   "keywords": [
